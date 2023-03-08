@@ -1,11 +1,12 @@
 import java.util.Random;
+import java.util.Scanner;
 
 public class Main {
     public Main() {
     }
 
     public static void main(String[] args) {
-       int razmer = 10;
+      /* int razmer = 10;
         int[] arei = new int[razmer];
         arei [0]=1;
         arei [1]=2;
@@ -17,7 +18,7 @@ public class Main {
         arei [7]=8;
         arei [8]=9;
         arei [9]=10;
-        System.out.println();
+        System.out.println();/*
        /* Random random = new Random();
         int size = 10;
         int[] array = new int[size];
@@ -104,6 +105,10 @@ public class Main {
         int b = random.nextInt();
         int c = random.nextInt();
         char a = random.nextInt().charAt();*/
+        Scanner scanner = new Scanner(System.in);
+        int d = scanner.nextInt();
+        int c = scanner.nextInt();
+        System.out.println(d+c);
 
     }
         }
